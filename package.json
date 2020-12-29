@@ -1,0 +1,23 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Password & Code Generator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaveMCPL/auth.git"
+  },
+  "keywords": [],
+  "author": "Czekin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaveMCPL/auth/issues"
+  },
+  "homepage": "https://github.com/WaveMCPL/auth#readme",
+  "dependencies": {
+    "deasync": "^0.1.21"
+  }
+}
