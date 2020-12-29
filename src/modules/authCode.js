@@ -1,6 +1,6 @@
 const Buffer = require('../lib/BufferJS');
 
-const safetyCharters = [
+const safetyChar = [
     'a', 'A', 'b', 'B', 'c', 'C', 'd', 'D', 'e', 'E', 'f', 'F', 'g', 'G', 'h', 'H',
     'i', 'I', 'j', 'J', 'k', 'K', 'l', 'L', 'm', 'M', 'n', 'N', 'o', 'O', 'p', 'P',
     'r', 'R', 's', 'S', 't', 'T', 'u', 'U', 'w', 'W', 'x', 'X', 'y', 'Y', 'z', 'Z',
@@ -11,8 +11,8 @@ const createSafetyCode = () => {
     let safety = [];
     let nm = 0;
     for (let i = 0; i < 5; i++) {
-        let tableRngNm = Math.floor(Math.random() * safetyCharters.length);
-        safety.push(safetyCharters[tableRngNm]);
+        let tableRngNm = Math.floor(Math.random() * safetyChar.length);
+        safety.push(safetyChar[tableRngNm]);
         nm++;
     }
 

@@ -1,2 +1,2 @@
 # auth
-Password &amp; Code Generator
+Password & Code Generator
